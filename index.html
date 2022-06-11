@@ -11,8 +11,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
+  <header>
+    <div class="container">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
@@ -35,14 +35,19 @@
           </li>
         </ul>
       </nav>
-    </header>
-    <main>
+    </div>
+  </header>
+  <main>
+    <div class="container main-container ">
       <section class="section" id="profile">
-        <img src="./assets/my foto.jpg" alt="my foto" class="avatar" />
-        <h1 class="section-title">Julia Chernova</h1>
-        <p>JUNIOR FRONTEND DEVELOPER</p>
+        <div class="profile_item">
+          <img src="./assets/my foto.jpg" alt="my foto" class="avatar" />
+        </div>
+        <div class="profile_item">
+          <h1 class="section-title">Julia Chernova</h1>
+          <p>JUNIOR FRONTEND DEVELOPER</p>
+        </div>
       </section>
-      <hr>
       <section class="section" id="contacts">
         <h2 class="section-title">Contacts</h2>
         <ul>
@@ -59,16 +64,12 @@
             <a href="Julia Chernova">Julia Chernova</a>
           </li>
         </ul>
-
       </section>
-      <hr>
       <section class="section" id="summary">
         <h2 class="section-title">Summary</h2>
         <p>I like to learn something new.</p>
         <p>I like programming and I want to learn new skills in IT</p>
-
       </section>
-      <hr>
       <section class="section" id="skills">
         <h2>Skills</h2>
         <ul>
@@ -77,7 +78,6 @@
           <li>Git</li>
         </ul>
       </section>
-      <hr>
       <section class="section" id="code">
         <h2>Code</h2>
         <textarea name="" id="" cols="80" rows="10">
@@ -95,18 +95,23 @@
       <section class="section" id="educatuon">
         <h2>Education</h2>
         <p>Togliatti State University</p>
-        <section class="section" id="english">
-          <h2>English</h2>
-          <p>A1 - Beginner</p>
-        </section>
-    </main>
-    <footer>
+      </section>
+      <section class="section" id="english">
+        <h2>English</h2>
+        <p>A1 - Beginner</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
       <p class="Copyright"> &#169;2022 </p>
-      <img src="assets/rs_school_js.jpg" alt="rs_school_foto" />
+      <img src="assets/rs_school_js.svg" alt="rs_school_foto" />
       <a href="#">https://rs.school/js/</a>
 
-    </footer>
-  </div>
+    </div>
+
+
+  </footer>
 </body>
 
 </html>
